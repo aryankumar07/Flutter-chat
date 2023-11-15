@@ -6,10 +6,10 @@ class SplashScreen extends StatelessWidget{
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
-        title: Text("Chat APP"),   
+        title: Text("Loading..."),   
       ),
       body: Center(
-        child: Text("loading....."),
+        child: CircularProgressIndicator(),
       ),
     );
   }
